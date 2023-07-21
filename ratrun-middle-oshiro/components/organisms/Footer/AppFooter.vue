@@ -18,6 +18,7 @@
           </div>
         </div>
 
+        <!-- 中央左のエリア -->
         <nav class="nav-left">
           <ul class="nav-left-items">
             <!-- v-for=vueの繰り返し文 -->
@@ -27,7 +28,7 @@
           </ul>
         </nav>
 
-        <!-- 右のエリア -->
+        <!-- 中央右のエリア -->
         <nav class="nav-right">
           <ul class="nav-right-items">
             <!-- v-for=vueの繰り返し文 -->
@@ -37,6 +38,7 @@
           </ul>
         </nav>
 
+        <!-- 右のエリア -->
         <div class="address">
           <p>
             建築・建築デザイン・原状 回復・内装解体・建物br
@@ -57,12 +59,11 @@
         <img src="@/assets/svg/icon-instagram.svg" alt="" />
         <img src="@/assets/svg/icon-pintarest.svg" alt="" />
       </div>
-    
+    </div>
 
     <div class="footer-copy">
       Copyright &copy; 店舗設計・デザイン・施工 CYPHER. AllRights Reserved
     </div>
-</div>
   </footer>
 </template>
   
@@ -92,28 +93,46 @@ export default {
   <style lang="scss" scoped>
 footer {
   color: #fff;
-  background-color: #756d6d;
   padding: 40px 20px;
 }
 
 .footer-inner {
-  padding: 50px 20px;
+  background-color: #756d6d;
+  padding: 100px;
 }
 .footer-content {
   display: flex;
   justify-content: space-between;
 }
 .footer-logo-top {
-  width: 150px;
+  width: 200px;
   height: auto;
 }
 
+.footer-left {
+  width: 20%;
+  font-size: 22px;
+}
+
+.nav-left {
+  width: 20%;
+  font-size: 18px;
+}
+
+.nav-right {
+  width: 20%;
+  font-size: 18px;
+  padding-right: 80px;
+}
+
 .address {
+  width: 40%;
+  font-size: 18px;
   border: solid 1px;
   outline: solid 1px;
   outline-offset: 5px;
   margin: 2px;
-  padding: 20px;
+  padding: 10px 20px;
 }
 
 .sns-icons {
@@ -121,8 +140,9 @@ footer {
   height: auto;
   display: flex;
   gap: 20px;
-  margin-bottom: 60px;
-  margin-left: 30px;
+  position: fixed;
+  right: 243px;
+  padding: 20px;
 }
 //==============
 // copyright
