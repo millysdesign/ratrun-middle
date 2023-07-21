@@ -17,4 +17,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+p {
+  padding-top: 50px;
+}
 </style>

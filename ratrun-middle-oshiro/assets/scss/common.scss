@@ -1,0 +1,63 @@
+//common.scss(色やフォントサイズなど共通で使う変数を入れる)
+$color-main: #fff;
+$color-accent: #40407f;
+$color-text: #000;
+
+// ====================
+// フォント
+// =====================
+DNPShueiShogoMinStd-Hv KozGoPr6N-Regular HiraMinProN-W3-83pv-RKSJ-H a {
+  text-decoration: none;
+
+}
+
+
+
+
+//====================
+// 共通パーツ
+//====================
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+a:link {
+  // color: #fff;
+}
+
+a:visited {
+  // color: #fff
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+// ====================
+// レスポンシブ表示
+// =====================
+
+@mixin mobile {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}

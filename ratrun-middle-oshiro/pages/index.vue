@@ -1,6 +1,5 @@
 <template>
   <div>
-    <p>こちらがメインページです</p>
   </div>
 </template>
 
