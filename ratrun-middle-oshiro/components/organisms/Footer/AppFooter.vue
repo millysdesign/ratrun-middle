@@ -41,7 +41,7 @@
         <!-- 右のエリア -->
         <div class="address">
           <p>
-            建築・建築デザイン・原状 回復・内装解体・建物br
+            建築・建築デザイン・原状 回復・内装解体・建物
             解体・アスベスト除去工事はSENT IAにお任せく ださい！
           </p>
           <p>
@@ -54,10 +54,12 @@
       </div>
 
       <!-- SNSアイコン -->
-      <div class="sns-icons">
-        <img src="@/assets/svg/icon-facebook.svg" alt="" />
-        <img src="@/assets/svg/icon-instagram.svg" alt="" />
-        <img src="@/assets/svg/icon-pintarest.svg" alt="" />
+      <div class="sns">
+        <div class="sns-icons">
+          <img src="@/assets/svg/icon-facebook.svg" alt="" />
+          <img src="@/assets/svg/icon-instagram.svg" alt="" />
+          <img src="@/assets/svg/icon-pintarest.svg" alt="" />
+        </div>
       </div>
     </div>
 
@@ -93,7 +95,6 @@ export default {
   <style lang="scss" scoped>
 footer {
   color: #fff;
-  padding: 40px 20px;
 }
 
 .footer-inner {
@@ -103,6 +104,9 @@ footer {
 .footer-content {
   display: flex;
   justify-content: space-between;
+  @include mobile {
+    display: block;
+  }
 }
 .footer-logo-top {
   width: 200px;
@@ -112,17 +116,26 @@ footer {
 .footer-left {
   width: 20%;
   font-size: 22px;
+  @include mobile {
+    width: 100%;
+  }
 }
 
 .nav-left {
   width: 20%;
   font-size: 18px;
+  @include mobile {
+    width: 100%;
+  }
 }
 
 .nav-right {
   width: 20%;
   font-size: 18px;
   padding-right: 80px;
+  @include mobile {
+    width: 100%;
+  }
 }
 
 .address {
@@ -133,22 +146,30 @@ footer {
   outline-offset: 5px;
   margin: 2px;
   padding: 10px 20px;
+  @include mobile {
+    width: 100%;
+  }
 }
 
+.sns {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+  margin-right: 150px;
+}
 .sns-icons {
   width: 40px;
   height: auto;
-  display: flex;
   gap: 20px;
-  position: fixed;
-  right: 243px;
-  padding: 20px;
+  display: flex;
 }
+
 //==============
 // copyright
 //==============
 .footer-copy {
   color: #333;
+  font-size: 10px;
   background-color: #fff;
   text-align: center;
   padding: 20px;
