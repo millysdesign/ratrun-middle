@@ -112,7 +112,6 @@ footer li {
   justify-content: space-between;
   @include mobile {
     display: block;
-    
   }
 }
 .footer-logo-top {
@@ -120,7 +119,7 @@ footer li {
   height: auto;
   @include mobile {
     padding: 30px;
-    width: 80%;
+    margin: 0 auto;
   }
 }
 
@@ -195,9 +194,9 @@ footer li {
 }
 
 .address-companyname {
-@include mobile {
-  margin: 20px 0 50px 0; 
-}
+  @include mobile {
+    margin: 20px 0 50px 0;
+  }
 }
 
 .address-phone {
