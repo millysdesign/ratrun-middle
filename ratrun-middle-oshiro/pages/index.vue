@@ -1,5 +1,7 @@
 <template>
   <div>
+
+    
     <div class="main-title">
       <h2>メインタイトルが 入ります</h2>
       <p>

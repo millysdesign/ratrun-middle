@@ -71,7 +71,10 @@ export default {
 //====================
 // header
 //====================
-
+header {
+  position: absolute;
+  z-index: 1;
+}
 .pc-header {
   @include mobile {
     display: none;
