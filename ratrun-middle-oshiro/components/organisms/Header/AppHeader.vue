@@ -72,7 +72,10 @@ export default {
 // header
 //====================
 header {
-  position: absolute;
+ // absoluteだけでも使えてその場合は1番上になる
+ position: absolute;
+  left: 0;
+  top: 0;
   z-index: 1;
 }
 .pc-header {
