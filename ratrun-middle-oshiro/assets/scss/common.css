@@ -15,6 +15,14 @@ a:hover {
   opacity: 0.7;
 }
 
+a:link {
+  color: #fff;
+}
+
+a:visited {
+  color: #fff;
+}
+
 .container {
   width: 90%;
   margin: auto;

@@ -29,7 +29,7 @@
           </li>
         </ul>
 
-        <!-- facebookとかのロゴをこの下に入れる -->
+        <!-- SNSアイコン -->
         <div class="sns-icons">
           <img src="@/assets/svg/icon-facebook.svg" alt="" />
           <img src="@/assets/svg/icon-instagram.svg" alt="" />
