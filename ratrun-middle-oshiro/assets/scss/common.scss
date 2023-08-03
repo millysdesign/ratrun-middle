@@ -6,11 +6,9 @@ $color-text: #000;
 // ====================
 // フォント
 // =====================
-DNPShueiShogoMinStd-Hv KozGoPr6N-Regular HiraMinProN-W3-83pv-RKSJ-H a {
+a {
   text-decoration: none;
-
 }
-
 
 
 
@@ -52,6 +50,13 @@ img {
   height: auto;
 }
 
+.section-title {
+  font-family: "DNPShueiShogoMinStd-Hv";
+  font-weight: normal;
+  font-size: 40px;
+  margin: 60px 0 30px;
+  text-align: center;
+}
 // ====================
 // レスポンシブ表示
 // =====================
